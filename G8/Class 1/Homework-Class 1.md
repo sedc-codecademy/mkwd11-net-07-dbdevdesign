@@ -11,7 +11,7 @@ a. Table: Stations
 Columns: StationID (int), StationName (nvarchar), City (nvarchar)
 b. Table: Trains
 
-Columns: TrainID (int), TrainName (nvarchar), TrainType (nvarchar), DepartureTime (time), ArrivalTime (time), StationID (int, foreign key references Stations(StationID))
+Columns: TrainID (int), TrainName (nvarchar), TrainType (nvarchar), DepartureTime (time), ArrivalTime (time))
 Insert Data: Insert sample data into the created tables.
 
 a. Insert at least 3 records into the "Stations" table, including StationID, StationName, and City.
