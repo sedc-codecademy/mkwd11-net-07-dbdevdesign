@@ -27,9 +27,9 @@ When writing queries with multiple statements, it is important to know what SQL 
 | =            | Equal            |
 | <>           | Not equal        |
 | >            | Greater          |
-| <            | Lesser           |
+| <            | Less than        |
 | >=           | Greater or Equal |
-| <=           | Lesser or Equal  |
+| <=           | Less or Equal    |
 | LIKE         | Pattern Match    |
 | BETWEEN      | Between a range  |
 
