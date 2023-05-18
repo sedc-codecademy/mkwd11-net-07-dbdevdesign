@@ -1,0 +1,46 @@
+USE SEDC
+
+CREATE TABLE TableA(idA int NOT NULL)
+CREATE TABLE TableB(idB int NOT NULL)
+
+INSERT INTO TableA VALUES (1), (2)
+
+SELECT * 
+FROM TableA
+
+INSERT INTO TableB VALUES (2), (3)
+
+SELECT * 
+FROM TableB
+
+--CROSS JOIN
+SELECT *
+FROM TableA
+CROSS JOIN TableB
+ORDER BY idA, idB
+
+--INNER JOIN
+SELECT *
+FROM TableA
+INNER JOIN TableB
+ON idA = idB --you can filter by any columns you want to match these two tables with
+
+--LEFT OUTER JOIN
+SELECT *
+FROM TableA
+LEFT OUTER JOIN TableB
+ON idA = idB
+
+--RIGHT OUTER JOIN
+SELECT *
+FROM TableB
+RIGHT OUTER JOIN TableA
+ON idA=idB 
+--WHERE idA > 1
+
+
+--FULL OUTER JOIN
+SELECT *
+FROM TableA
+FULL OUTER JOIN TableB
+ON idA = idB
