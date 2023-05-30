@@ -2,7 +2,8 @@
 
 # User
 * A user can have multiple orders
-* Information
+
+ Information:
 * First Name
 * Last Name
 * Address
@@ -13,7 +14,8 @@
 * A pizza can have multiple toppings
 * A pizza can have one size
 * A pizza can have one order
-* Information
+
+Information:
 * Name
 * Price ( For this pizza )
 * Size*
@@ -22,20 +24,23 @@
 # Order
 * An order can have only one user
 * An order can have multiple pizzas
-* Information
+
+Information:
 * Is Delivered
 * Price ( For the delivery itself )
 * User*
 
 # Topping
 * A topping can have multiple pizzas
-* Information
+
+* Information:
 * Name
 * Price ( For this topping )
 
-#Size
+# Size
 * A pizza size can have multiple pizzas
-* Information
+
+Information:
 * Name
 
 
