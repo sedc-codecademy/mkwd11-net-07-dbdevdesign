@@ -1,0 +1,13 @@
+
+
+1. Download docker desktop https://www.docker.com/products/docker-desktop/
+2. Open command line by typing cmd in search
+3. Run `docker run -e "ACCEPT_EULA=Y" -e "MSSQL_SA_PASSWORD=yourStrong(!)Password" -p 1433:1433 -d mcr.microsoft.com/mssql/server:2022-latest`
+4. Connect to database using 
+ - Server Name: localhost, 1433
+ - Autentication: SQL Server Authentication
+ - Login: sa
+ - Password: yourStrong(!)Password (or anyother if you change the password from point 3)
+
+ 5. If ever the database is down you need to go to search and type docker desktop
+ 6. Once the docker desktop app is open just press start on the database()
